@@ -12,7 +12,6 @@ plugin.lua is compatible with Lua 5.1 and 5.2.
 Here's an example in Windows:
 
 1. Download the Lua binary corresponding to your version of Windows:
-
 	- [32-bit](http://sourceforge.net/projects/luabinaries/files/5.2/Executables/lua-5.2_Win32_bin.zip/download)
 	- [64-bit](http://sourceforge.net/projects/luabinaries/files/5.2/Executables/lua-5.2_Win64_bin.zip/download)
 
