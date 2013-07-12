@@ -350,7 +350,7 @@ if options.p then
 			f:close()
 
 			-- find plugin path
-			local pluginPath = content:match[[<string name="PluginsDir">(.-)</string>]]
+			local pluginPath = content:match[[<QDir name="PluginsDir">(.-)</QDir>]]
 			if not pluginPath then
 				warn("could not locate plugin path: could not find PluginsDir setting")
 			else
